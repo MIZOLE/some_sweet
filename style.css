@@ -1,0 +1,49 @@
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FBE7C6;
+    animation: mymove 5s infinite;
+ }
+
+
+ @keyframes mymove {
+    from {background-color: #A0E7E5;}
+    to {background-color: #FFAEBC;}
+    from{background-color: #FBE7C6;}
+    from{background-color: #E4DFAF;}
+ }
+
+
+.emoji {
+    font-size: 5rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.close {
+    display: none;
+    width: 500px;
+    height: 500px;
+}
+
+.open {
+    display: none;
+    width: 550px;
+    height: 500px;
+}
+
+.active {
+    display: block;
+}
+
+
+
